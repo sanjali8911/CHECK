@@ -8,7 +8,7 @@ body{
       background-color: black;
 }
 .dada{
-    border: 1px solid rgb(47, 51, 54);
+    /* border: 1px solid rgb(47, 51, 54); */
     display: grid;
     height: 100vh;
     max-width: 1265px;
