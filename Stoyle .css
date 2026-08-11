@@ -151,6 +151,13 @@ padding: 10px 16px;
 .cheez{
     cursor: pointer;
     opacity: 0.85;
+    display: inline-flex;
+    align-items: center;
+    color: rgb(113, 118, 123);
+}
+.cheez svg{
+    width: 18px;
+    height: 18px;
 }
 .postbtn{
     background-color: rgb(239, 243, 244);
@@ -214,6 +221,13 @@ padding: 10px 16px;
 }
 .kaaam{
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+.kaaam svg{
+    width: 18px;
+    height: 18px;
 }
 .kaaam:hover{
     color: rgb(29, 155, 240);
@@ -345,10 +359,13 @@ padding: 10px 16px;
     color: aliceblue;
 }
 .qimg{
-    max-width: ;
-    max-height: 400px;
+   display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-height: 700px;
     background-color: rgb(47, 51, 54);
     object-fit: cover;
+    
 }
 .qcontext{
     padding: 10px 12px;
