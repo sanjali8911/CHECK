@@ -74,6 +74,17 @@ padding: 10px 16px;
  .waw{
    margin-top: auto;
  }
+ .waw-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(83, 100, 113);
+    flex-shrink: 0;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
 .papa{
     display: grid;
     height: 100%;
@@ -362,10 +373,10 @@ padding: 10px 16px;
    display: block;
     width: 100%;
     margin: 0 auto;
-    max-height: 700px;
-    background-color: rgb(47, 51, 54);
-    object-fit: cover;
-    
+    max-height: 600px;
+    background-color: black;
+    object-fit: contain;
+    object-position: center;
 }
 .qcontext{
     padding: 10px 12px;
